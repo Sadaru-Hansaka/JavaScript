@@ -11,7 +11,7 @@ const content = `
     <ul>
         <li>Name: ${aMan.name}</li>
         <li>Age: ${aMan.age}</li>
-        <li>Weight: ${aMan.weight}</li>
+        <li> ${aMan.weight}</li>
         <li>Gender: ${aMan.gender}</li>
     </ul>
 `;
