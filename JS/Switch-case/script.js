@@ -6,7 +6,7 @@ function people(name,age,gender,height,weight){
     this.weight = weight;
 }
 
-const person1 = new people("Sadaru",19,"Male",5.5,50);
+const person1 = new people("Sadaru",12,"Male",5.5,50);
 const person2 = new people("Hafiz",18,"Male",6,50); 
 
 const Con = `
@@ -16,7 +16,7 @@ const Con = `
         <li>Age: ${person1.age}</li>
         <li>Gender: ${person1.gender}</li>
         <li>Height: ${person1.height}</li>
-        <li>Weight: ${person1.weight}</li>
+        <li> ${person1.weight}</li>
     </ul>
 `
 
@@ -30,6 +30,7 @@ content.innerHTML = Con;
 
 main.append(content)
 
+// switch case
 switch (true) {
     case person1.age >= 18:
         console.log("Adult");
