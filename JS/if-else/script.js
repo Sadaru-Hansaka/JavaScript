@@ -58,4 +58,4 @@ if (aMan.weight >= 50 || aMan.age >=18) {
     newStatus.classList.add("status");
     newStatus.innerHTML = status;
     newArticle.append(newStatus);
-}
+} 
