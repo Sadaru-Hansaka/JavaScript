@@ -1,4 +1,4 @@
-// objects literals and dot notation
+f// objects literals and dot notation
 
 // object declaration method
 var table = {
