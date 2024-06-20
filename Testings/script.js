@@ -77,16 +77,64 @@
 // console.log(dog.food);
 
 
-function two() {
-    return 2;
+// function two() {
+//     return 2;
+// }
+
+// function one() {
+//     return 1;
+// }
+
+// function calculate(initialValue, incrementValue) {
+//     return initialValue() + incrementValue() + incrementValue();
+// }
+
+// console.log(calculate(two, one));
+
+
+// class Animal {
+//     constructor(lg) {
+//         this.legs = lg;
+//     }
+// }
+
+// class Dog extends Animal {
+//     constructor() {
+//         super(4);
+//     }
+// }
+
+// var result = new Dog();
+// console.log(result.legs);
+
+
+// class Animal {
+
+// }
+
+// class Cat extends Animal {
+//   constructor() {
+//     super();
+//     this.noise = "meow";
+//   }
+// }
+
+// var result = new Animal();
+// console.log(result.noise);
+
+
+
+class Person {
+    sayHello() {
+        console.log("Hello");
+    }
 }
 
-function one() {
-    return 1;
+class Friend extends Person {
+    sayHello() {
+        console.log("Hey");
+    }
 }
 
-function calculate(initialValue, incrementValue) {
-    return initialValue() + incrementValue() + incrementValue();
-}
-
-console.log(calculate(two, one));
+var result = new Friend();
+result.sayHello();
