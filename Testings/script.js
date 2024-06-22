@@ -124,17 +124,21 @@
 
 
 
-class Person {
-    sayHello() {
-        console.log("Hello");
-    }
-}
+// class Person {
+//     sayHello() {
+//         console.log("Hello");
+//     }
+// }
 
-class Friend extends Person {
-    sayHello() {
-        console.log("Hey");
-    }
-}
+// class Friend extends Person {
+//     sayHello() {
+//         console.log("Hey");
+//     }
+// }
 
-var result = new Friend();
-result.sayHello();
+// var result = new Friend();
+// result.sayHello();
+
+const meal = ["soup", "steak", "ice cream"]
+let [starter] = meal;
+console.log(starter);

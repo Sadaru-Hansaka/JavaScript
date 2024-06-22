@@ -59,3 +59,9 @@ arr[8]=120;
 console.log(arr);
 arr[6]=200;
 console.log(arr);
+
+console.log(" ");
+console.log("Sterter")
+const meal = ["soup", "steak", "ice cream"]
+let [starter] = meal;
+console.log(starter);
